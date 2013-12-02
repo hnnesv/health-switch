@@ -1,0 +1,8 @@
+[
+	{
+		"urlPattern": "test",
+		"host": "localhost",
+		"port": 8001,
+		"allowUnsecured": "true"
+	}
+]
