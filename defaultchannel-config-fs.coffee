@@ -1,5 +1,6 @@
 fs = require 'fs'
 
+# Read default-channel config from the filesystem
 loadPatternsFromConfig = (router) ->
 	defaultChannelConfig = JSON.parse fs.readFileSync 'defaultchannel-mapping.json'
 	for channel in defaultChannelConfig
